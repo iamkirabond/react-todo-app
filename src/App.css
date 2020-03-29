@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  width: 280px;
+  height: 450px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 10px;
+}
+h1{
+  letter-spacing: 0.1em;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.App-input{
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+}
+.itemList{
+  margin: 0 auto;
+  width: 200px;
+}
+.todoItem{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+.todoItem p{
+  text-align: left;
+  letter-spacing: 0.05em;
+}
+.todoItem input{
+  margin-right: 20px;
+}
